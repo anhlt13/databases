@@ -2,7 +2,7 @@
 select * from goal;
 
 #question 2
-select name, type from airport where country_code like "FI";
+select name, type from airport where iso_country like "FI";
 
 #question 3
 select name, iso_country from airport where iso_country ="FI" order by name desc;
