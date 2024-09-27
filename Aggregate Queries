@@ -1,0 +1,7 @@
+#question 1 
+
+
+#question 2 
+select country.continent, count(*)
+from country 
+group by country.continent;
